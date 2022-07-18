@@ -25,13 +25,23 @@ The model achieved an accuracy of 72.4% therefore it did not achieve the target 
 ![image](Results/OG.PNG)  
 
 **What steps did you take to try and increase model performance?**  
-| Model | Loss (%) | Accuracy (%) | Steps Taken |
-| :---         |     :---:      |     :---:     |          ---: |
-| Original   | 56.9     | 72.5    |     |
-| Attempt 1  | 56.6     | 72.6    | Increased the number of neurons to     |
-| Attempt 2  | 58.4     | 72.4    | git status    |
-| Attempt 3  | 55.6     | 72.4    | git status    |
+| Model          |Loss (%)| Accuracy (%) | Steps Taken |
+| :---           | :---:  | :---: |          :--- |
+| Original       | 56.9   | 72.5  |     |
+| Attempt 1      | 56.6   | 72.6  | Increased the number of neurons to 120 for hidden layer 1 and 50 for hidden layer 2    |
+| Attempt 2      | 58.4   | 72.4  | Increased the number of hidden layers to 4 (neurons: 80, 30, 120, 50)    |
+| Attempt 3      | 55.6   | 72.4  | Increased the number of hidden layers to 4 (neurons: 80, 30, 120, 50) and activation model of input layers to tanh    |
 
+### Atempt 1 Results
+![image2](Results/OptAt1.png)  
+
+### Atempt 2 Results
+![image3](Results/OptAt2.PNG)
+
+### Atempt 3 Results
+![image4](Results/OptAt3.png)  
+
+Overall, the steps taken in the three attempts above did not improve the accuracy of the model.  
 <br>
-Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
-
+# Summary
+Overall, the models came close to the target accuracy o f75% but none achieved it. Since the data contains categorical variable and continous variables, a random forest classifier o rlogistic regression model may generate a more accurate model.
