@@ -25,6 +25,12 @@ The model achieved an accuracy of 72.4% therefore it did not achieve the target 
 ![image](Results/OG.PNG)  
 
 **What steps did you take to try and increase model performance?**  
+| Model | Loss (%) | Accuracy (%) | Steps Taken |
+| :---         |     :---:      |     :---:     |          ---: |
+| Original   | 56.9     | 72.5    |     |
+| Attempt 1  | 56.6     | 72.6    | Increased the number of neurons to     |
+| Attempt 2  | 58.4     | 72.4    | git status    |
+| Attempt 3  | 55.6     | 72.4    | git status    |
 
 <br>
 Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
